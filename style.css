@@ -1,0 +1,211 @@
+ body {
+     background-color: skyblue;
+     text-align: center;
+     font-size: 20px;
+ }
+ img
+ {
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+ }
+ h1, h2, h3
+ {
+     padding: 1em 0;
+     font-size: 30px;
+ }
+ p
+ {
+     padding: 1em 0;
+     font-size: 20px;
+ }
+ .welcome{
+     font-size: 50px;
+ }
+ .but {
+     margin: 10px;
+     display: inline;
+     font-size: 25px;
+ }
+ .but:hover
+ {
+     background: #eaeaea;
+     color: #333;
+ }
+ .about
+ {min-height: 200px;
+    background-color: white;
+    border: solid black;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    padding:0 1.5em;
+ }
+
+.myself {
+background-image: url(light.jpg);
+border: solid slategray;
+margin-bottom: 40px;
+}
+
+.git{
+    background-image: url(gold.jpg);
+    font-size: 20px;
+}
+.fas{
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+border:solid black;
+background-color: white;
+}
+.css{
+    border: solid black;
+}
+.html{
+    border: solid black;
+}
+
+.java{
+    border: solid black;
+}
+
+.web{
+    min-height: 200px;
+    background-color: white;
+    border: solid black;
+    color: #333;
+    text-align: center;
+    margin: 50px;
+    display: grid;
+    padding:0 1.5em;
+}
+.main{
+    border: solid black;
+    background-color: black;
+}
+.footer
+{
+    padding: 2em;
+    background:darkcyan;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (min-width:700px){
+    body {
+        background-color: skyblue;
+        text-align: center;
+        font-size: 20px;
+        background-size: cover;
+    }
+    img
+    {
+       display: block;
+       width: 400px;
+       height: 300px;
+       margin: 10px;
+    }
+    h1, h2, h3
+    {
+        padding: 1em 0;
+        font-size: 30px;
+    }
+    p
+    {
+        padding: 1em 0;
+        font-size: 20px;
+    }
+    .welcome{
+        font-size: 50px;
+    }
+    .but {
+        margin: 10px;
+        display: inline;
+        font-size: 25px;
+    }
+    .but:hover
+    {
+        background: #eaeaea;
+        color: #333;
+    }
+    .about
+    {min-height: 200px;
+       background-color: white;
+       border: solid black;
+       color: #333;
+       text-align: center;
+       margin: 20px;
+       display: grid;
+       padding:0 1.5em;
+    }
+   
+   .myself {
+   background-image: url(light.jpg);
+   border: solid slategray;
+   margin-bottom: 40px;
+   }
+   
+   .git{
+       background-image: url(gold.jpg);
+       font-size: 20px;
+       margin-top: 20px;
+   }
+   .fas{
+       font-size: 80px;
+       margin-top: 5px;
+   }
+   .fa{
+    font-size: 80px;
+    margin-top: 5px;
+   }
+   
+   .experience {
+       margin: 10px;
+   border:solid black;
+   background-color: white;
+   }
+
+   .css{
+       border: solid black;
+   }
+
+   .html{
+       border: solid black;
+   }
+   
+   .java{
+       border: solid black;
+   }
+   
+   .web{
+       min-height: 200px;
+       background-color: white;
+       border: solid black;
+       color: #333;
+       text-align: center;
+       margin: 50px;
+       display: grid;
+       padding:0 1.5em;
+   }
+   .main{
+       border: solid black;
+       background-color: black;
+   }
+   .footer
+   {
+       padding: 2em;
+       background:darkcyan;
+       color: #fff;
+       text-align: center;
+       font-size: 15px;
+   }
+}
